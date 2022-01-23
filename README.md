@@ -13,9 +13,6 @@ MONGO_INITDB_DATABASE: "<your-database>"
 
 `docker build -t mongo32:0.1 .`
 
-## Run the container
-
-`docker compose up -d`
 
 ## Edit init-mongo.js
 
@@ -47,4 +44,6 @@ db.createUser(
 );
 ```
 
+## Run the container
 
+`docker compose up -d`
